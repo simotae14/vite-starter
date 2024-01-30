@@ -1,9 +1,15 @@
 import { addBanner } from './banner.js';
 
+import styles from './counter.module.css';
+
+console.log(styles);
+
 export const initializeCounter = (doc = globalThis.document) => {
   const countElement = doc.getElementById('count');
   const incrementButton = doc.getElementById('increment');
   const decrementButton = doc.getElementById('decrement');
+
+  countElement.classList.add(styles.count);
 
   let count = 0;
 
