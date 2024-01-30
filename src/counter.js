@@ -1,7 +1,5 @@
 import { addBanner } from './banner.js';
 
-import('./style.css');
-
 export const initializeCounter = (doc = globalThis.document) => {
   const countElement = doc.getElementById('count');
   const incrementButton = doc.getElementById('increment');
