@@ -1,5 +1,3 @@
-import { addBanner } from './banner.js';
-
 import styles from './counter.module.css';
 
 console.log(styles);
@@ -18,7 +16,7 @@ export const initializeCounter = (doc = globalThis.document) => {
 
     if (count < 0) {
       import('./banner.js').then(({ addBanner }) => {
-        addBanner("You're below zero!");
+        addBanner('Below zero!');
       });
     }
   };
