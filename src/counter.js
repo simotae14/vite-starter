@@ -1,6 +1,6 @@
 import styles from './counter.module.css';
 
-console.log(styles);
+import './postcss.css';
 
 export const initializeCounter = (doc = globalThis.document) => {
   const countElement = doc.getElementById('count');
