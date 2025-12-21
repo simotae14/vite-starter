@@ -1,7 +1,11 @@
-import image from './favicon-16x16.png';
+import webp from './steve-after-a-workshop.jpg?h=400;800&format=webp&as=metadata';
+import jpg from './steve-after-a-workshop.jpg?h=400&as=metadata';
+
+console.log(webp);
+console.log(jpg);
 
 const img = document.createElement('img');
-img.src = image;
+img.src = webp;
 
 document.querySelector('#content').appendChild(img);
 
