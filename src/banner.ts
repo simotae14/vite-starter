@@ -5,3 +5,5 @@ export const addBanner = (text: string) => {
   container.classList.add(styles.bannerText);
   container.textContent = text;
 };
+
+export default addBanner;
