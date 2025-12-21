@@ -1,6 +1,9 @@
-import image from './steve-after-a-workshop.jpg';
+import image from './favicon-16x16.png';
 
-console.log(image);
+const img = document.createElement('img');
+img.src = image;
+
+document.querySelector('#content').appendChild(img);
 
 console.log('hello from index.js');
 
