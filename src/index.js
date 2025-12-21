@@ -1,4 +1,6 @@
-// import { initializeCounter } from './counter.js';
+import image from './steve-after-a-workshop.jpg';
+
+console.log(image);
 
 console.log('hello from index.js');
 
