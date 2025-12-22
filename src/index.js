@@ -1,6 +1,6 @@
-import addBanner from './banner?raw';
+import styles from './banner.module.css';
 
-console.log(addBanner);
+console.log(styles);
 
 import('./counter').then(({ initializeCounter }) => {
   initializeCounter();
