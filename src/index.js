@@ -1,3 +1,3 @@
-import gandorf from './characters/gandorf.json';
-
-console.log(gandorf);
+import('./characters/gandorf.json').then(({ name }) => {
+  console.log(name);
+});
