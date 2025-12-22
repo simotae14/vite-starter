@@ -1,6 +1,4 @@
-import styles from './banner.module.css?url';
-
-console.log(styles);
+console.log(import.meta.env);
 
 import('./counter').then(({ initializeCounter }) => {
   initializeCounter();
