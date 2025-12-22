@@ -1,4 +1,4 @@
-import styles from './banner.module.css';
+import styles from './banner.module.css?inline';
 
 console.log(styles);
 
