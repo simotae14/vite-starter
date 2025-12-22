@@ -1,5 +1,3 @@
-console.log(import.meta.env);
+import gandorf from './characters/gandorf.json';
 
-import('./counter').then(({ initializeCounter }) => {
-  initializeCounter();
-}); // this one return a Promise
+console.log(gandorf);
